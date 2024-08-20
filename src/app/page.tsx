@@ -1,11 +1,20 @@
+import Visual from "@/components/Visual";
+import Comment from "@/components/Comment";
+import Contact from "@/components/Contact";
+import Date from "@/components/Date";
+import Map from "@/components/Map";
+import Account from "@/components/Account";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        test 안녕하세요
-      </div>
-    </main>
+    <>
+      <Visual></Visual>
+      <Comment></Comment>
+      <Contact></Contact>
+      <Date></Date>
+      <Map></Map>
+      <Account></Account>
+    </>
   );
 }
